@@ -5,5 +5,5 @@
 .root__section{
   max-width: 1240px;
   margin: 0 auto;
-  border: solid red;
+  /* border: solid red; */
 }
