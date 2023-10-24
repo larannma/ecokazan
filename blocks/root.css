@@ -1,0 +1,9 @@
+.root{
+  background-color: #DCDCDC;
+}
+
+.root__section{
+  max-width: 1240px;
+  margin: 0 auto;
+  border: solid red;
+}
