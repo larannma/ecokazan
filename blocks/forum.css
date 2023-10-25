@@ -1,0 +1,10 @@
+.forum{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+}
+
+.forum__image{
+  filter: drop-shadow(0px 4px 160px rgba(0, 0, 0, 0.25));
+}

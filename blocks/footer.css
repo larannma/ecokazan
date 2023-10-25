@@ -1,0 +1,8 @@
+.footer{
+  height: 54px;
+  /* background-color: #FFF; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 7;
+}

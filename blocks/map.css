@@ -1,0 +1,99 @@
+.map{
+  margin-top: 254px;
+}
+
+.map__iframe{
+  border-radius: 70px;
+border: 1px solid #262525;
+background: #292F36;
+margin: 0 auto;
+margin-bottom: 37px;
+max-width: 1199px;
+}
+
+@media screen and (max-width: 1280px) {
+  .map__iframe{
+    width: 700px;
+  }
+}
+
+.map__selection{
+  display: flex;
+  margin-bottom: 30px;
+  gap: 53px;
+}
+
+.map__recycleCenters{
+  display: flex;
+  justify-content: space-around;
+  gap: 39px;
+  margin-bottom: 50px;
+}
+
+
+.map_recycleCenter{
+  border-radius: 10px;
+  background-image: url(../images/dialog-icon.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  width: 253px;
+  height: 128px;
+  padding: 20px;
+  box-shadow: 0px 20px 20px 3px rgba(5, 16, 55, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.map__recycleTitle{
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 123.077% */
+}
+
+.map__recycleSubitle{
+  color: #000;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 127.273% */
+  width: 60%;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////  */
+.custom-select {
+  min-width: 350px;
+  position: relative;
+}
+
+.custom__arrow{
+  /* position: absolute; */
+  right: 18px;
+  top: 15px;
+  z-index: 4;
+}
+
+/* 667 део нексия */
+
+select {
+  appearance: none;
+  /* safari */
+  -webkit-appearance: none;
+  /* other styles for aesthetics */
+  width: 100%;
+  font-size: 12px;
+  padding: 0.675em 6em 0.675em 1em;
+  background-color: #fff;
+  border: 1px solid #caced1;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
+  border-radius: 47.857px;
+  border: 2.393px solid var(--neutral-colors-color-600, #9291A5);
+  background: var(--neutral-colors-white, #FFF);
+  max-width: 377px;
+  height: 43px;
+}

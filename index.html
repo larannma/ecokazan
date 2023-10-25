@@ -14,19 +14,19 @@
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="" class="header__link">Главная</a>
+              <a href="#lead" class="header__link">Главная</a>
             </li>
             <li class="header__item">
-               <a href="" class="header__link">Карта</a>
+               <a href="#map" class="header__link">Карта</a>
             </li>
             <li class="header__item">
-              <a href="" class="header__link">Форум</a>
+              <a href="#forum" class="header__link">Форум</a>
             </li>
             <li class="header__item">
               <a href="" class="header__link">Календарь</a>
             </li>
             <li class="header__item">
-              <a href="" class="header__link">Магазины</a>
+              <a href="#stores" class="header__link">Магазины</a>
             </li>
           </ul>
         </nav>
@@ -34,8 +34,7 @@
       <button class="header__loginButton">Войти</button>
     </header>
     <main class="main">
-      
-      <section class="lead">
+      <section id='lead' class="lead">
         <div class="lead__info root__section">
           <div class="lead__headers">
             <img class='lead__img' src="./images/mosque.png" alt="mosque">
@@ -47,13 +46,71 @@
             <p class="lead__subtitle">узнавайте первыми <span class="lead__highlight" >о предстоящих событиях</span> и участвуйте в них.</p>
           </div>
         </div>
-        <div class="lead__socials">
-          <p class="lead__contactsSubtitle">Контактная информация: для сотрудничества - ecokazan@gmail.com, мы в соц.сетях -</p>
-          <img class="vk" src="./images/socials_vk.svg" alt="vk_icon">
-          <img class="tg" src="./images/socials_tg.svg" alt="tg_icon">
+      </section>
+      <section id='map' class="map root__section">
+        <div class="map__selection">
+          <div class="custom-select">
+            <!-- <svg class='custom__arrow' xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+              <path d="M14 2.37721C14 0.910334 12.8481 0.0350671 11.9879 0.848525L7 5.56702L2.01211 0.848525C1.15189 0.0350675 -4.69125e-07 0.910335 -3.89357e-07 2.37721C-3.55985e-07 2.99089 0.216222 3.56483 0.576333 3.90589L6.13744 9.16631C6.66011 9.66079 7.34067 9.66079 7.86333 9.16631L13.4244 3.90589C13.7838 3.56483 14 2.99088 14 2.37721Z" fill="#9291A5"/>
+            </svg> -->
+            <select>
+              <option value="">Укажите район</option>
+              <option value="">Вахитовский</option>
+              <option value="">Советский</option>
+            </select>
+          </div>
+          <div class="custom-select">
+            <select>
+              <option value="">Тип переработки</option>
+              <option value="">Платная</option>
+              <option value="">Бесплатная</option>
+            </select>
+            <div class="main__results">
+            </div>
+          </div>
+        </div>
+        <iframe class='map__iframe' src="https://yandex.ru/map-widget/v1/?um=constructor%3Aab9b5f4a482e0ee4232ee35d6f3db3725eaa74b0363775af65bbc3be117ff716&amp;source=constructor" width="1199" height="501" frameborder="0"></iframe>
+        <div class="map__recycleCenters">
+          <div class="map_recycleCenter">
+            <p class="map__recycleTitle">«ИНТЕРМЕТТРЕЙД»</p>
+            <p class="map__recycleSubitle">металлолом 8 (843) 277-57-16 ул. Даурская, д. 12а</p>
+          </div>
+          <div class="map_recycleCenter">
+            <p class="map__recycleTitle">«Экология Поволжья»</p>
+            <p class="map__recycleSubitle">аккумулятор
+              +7 (843) 250 95 96
+              ул. Аделя Кутуя, 163</p>
+          </div>
+          <div class="map_recycleCenter">
+            <p class="map__recycleTitle">«EcoPAper»</p>
+            <p class="map__recycleSubitle">макулатора
+              8(904) 673-15-34
+              ул. Николая Ершова, 31Б</p>
+          </div>
+          <div class="map_recycleCenter">
+            <p class="map__recycleTitle">«Вторая Жизнь»</p>
+            <p class="map__recycleSubitle">макулатора
+              +7 (987) 225 00 92
+              ул. Максимова, 3</p>
+          </div>
         </div>
       </section>
+      <section id='forum' class="forum root__section">
+        <img class="forum__image" src="./images/текст1new.png" alt="chat dialog">
+        <img class="forum__image" src="./images/текст2.png" alt="chat dialog">
+        <img class="forum__image" src="./images/текст3.png" alt="chat dialog">
+      </section>
+      <section class="stores root__section" id="stores">
+        <img class="forum__image" src="./images/магазин1.png" alt="chat dialog">
+        <img class="forum__image" src="./images/магазин2.png" alt="chat dialog">
+        <img class="forum__image" src="./images/магазин3.png" alt="chat dialog">
+      </section>
     </main>
+    <footer class="footer lead__socials">
+      <p class="lead__contactsSubtitle">Контактная информация: для сотрудничества - ecokazan@gmail.com, мы в соц.сетях -</p>
+      <img class="vk" src="./images/socials_vk.svg" alt="vk_icon">
+      <img class="tg" src="./images/socials_tg.svg" alt="tg_icon">
+    </footer>
   </div>
 </body>
 </html>
