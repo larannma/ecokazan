@@ -5,3 +5,56 @@
   justify-content: center;
   gap: 36px;
 }
+
+.stores__main-container{
+  display: flex;
+  max-width: 1240px;
+  height: 240px;
+  padding-bottom: 0px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 24px 24px 0px 0px;
+  background: var(--background-default, #FFF);
+  padding: 10px 15px;
+}
+
+.stores__title-logo{
+  /* border: solid red; */
+}
+
+.stores__info{
+  border: solid red;
+}
+
+.stores__title{
+  /* border: solid red; */
+}
+
+.stores__img{
+  /* border: solid red; */
+}
+
+.stores__description{
+  border: solid rgb(37, 14, 90);
+  display: flex;
+}
+
+.stores__main-description{
+  /* border: solid red; */
+}
+.stores__socials{
+  border: solid red;
+}
+
+.stores__notes{
+  border: solid red;
+}
+
+.stores__notes-main-text{
+  border: solid red;
+}
+
+.stores__rating{
+  border: solid red;
+}
